@@ -12,12 +12,19 @@ body .header {
 .navi {
     padding-top: 5px;
     justify-content: right;
+    position: sticky;
+    top: 20px;
+    float: right;
 }
 
 .navi a {
     color: aliceblue;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 20px;
-    justify-content: center;
+    padding: 15px;
+
+}
+
+.navi a:hover {
+    color: black;
 }
