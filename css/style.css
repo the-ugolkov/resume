@@ -1,0 +1,23 @@
+body .header {
+    width: 80%;
+    height: 400px;
+    margin: auto;
+}
+
+.header {
+    background-color: rgb(50, 50, 50, .8);
+
+}
+
+.navi {
+    padding-top: 5px;
+    justify-content: right;
+}
+
+.navi a {
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px;
+    justify-content: center;
+}
