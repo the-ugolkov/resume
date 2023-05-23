@@ -8,15 +8,17 @@
     src: url("/Cormorant_Garamond/CormorantGaramond-Italic.ttf");
 }
 
-.navi a, .text_header{
+.navi a, .text_header, .text_stack h3, .projects h3{
     font-family: "Cormorant Regular", 'Times New Roman', Times, serif;
 }
 
-.header, .about{
+.header, .about, .main{
     width: 70%;
     margin: auto;
-    background: #1a2e3b;
+}
 
+.header, .about{
+    background: #1a2e3b;
 }
 
 .header {
@@ -72,24 +74,32 @@
 }
 
 .text_stack {
-    width: 45%;
-    height: 15rem;
-    margin-left: auto;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.text_stack h3, .projects h3{
+    margin: 0 3rem;
+    font-size: 2.5rem;
 }
 
 .text_stack ul {
-    padding: 0 3rem;
-    columns: 2;
+    margin-top: 2rem;
+    width: 40rem;
+    height: 15rem;
+    padding: 0 3rem; 
+    columns: 3;
 }
 
 .text_stack ul li {
     padding: 2px;
-    color: rgba(240, 248, 255, 0.647);
-    font-size: 1.5rem;
+    color: rgba(6, 6, 6, 0.647);
+    font-size: 1.8rem;
 }
 
 .text_about {
-    margin-top: 10rem;
+    margin-top: 8rem;
 }
 
 .text_about p {
@@ -98,5 +108,5 @@
     text-align: center;
     font-size: 2rem;
     font-family: "Cormorant Italic",  'Times New Roman', Times, serif;
-
 }
+
