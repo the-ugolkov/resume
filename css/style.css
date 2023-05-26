@@ -22,24 +22,20 @@
 }
 
 .header {
-    height: 6rem;
     top: 0;
     position: sticky;
-    display: flex;
-    align-items: center;
-    justify-content: right;
 }
 
 .navi {
-    justify-content: flex-end;
-    position: sticky;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .navi a {
     color: #f8f8f8;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 0 3rem;
     font-size: 1.6rem;
 }
 
@@ -48,14 +44,18 @@
 }
 
 .about {
-    height: 30rem;
+    /* height: 30rem; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .avatar img {
-    margin-left: 5%;
-    width: 30rem;
     box-shadow: 3px 3px 6px;
-    float: left;
+    min-width: 300px;
+    margin: 20px;
 }
 
 .text_header {
