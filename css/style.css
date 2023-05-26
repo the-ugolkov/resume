@@ -44,7 +44,6 @@
 }
 
 .about {
-    /* height: 30rem; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -54,7 +53,7 @@
 
 .avatar img {
     box-shadow: 3px 3px 6px;
-    min-width: 300px;
+    min-width: 400px;
     margin: 20px;
 }
 
@@ -81,32 +80,47 @@
 }
 
 .contact_head a {
+    width: 40px;
+    height: 40px;
     margin: 10px;
+    padding: 2px;
+}
+
+.contact_head a:hover {
+    background-color: #c58446;
+    border-radius: 30%;
 }
 
 .text_stack {
     margin-top: 3rem;
     display: flex;
     justify-content: center;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
 }
 
-.text_stack h3, .projects h3{
-    margin: 0 3rem;
+.text_stack h3 {
+    margin: auto;
     font-size: 2.5rem;
+    text-transform: uppercase;
 }
 
 .text_stack ul {
-    margin-top: 2rem;
-    width: 40rem;
-    height: 15rem;
-    padding: 0 3rem; 
-    columns: 3;
+    /* width: 40rem; */
+    /* height: 15rem; */
+    /* padding: 0 3rem;  */
+    /* columns: 4; */
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    justify-content: center;
+    
 }
 
 .text_stack ul li {
     padding: 2px;
     color: rgba(6, 6, 6, 0.647);
     font-size: 1.8rem;
+    /* margin: 0 30px;  */
 }
 
 .text_about {
