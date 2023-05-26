@@ -12,12 +12,12 @@
     font-family: "Cormorant Regular", 'Times New Roman', Times, serif;
 }
 
-.header, .about, .main{
+.header, .about, .main, .footer {
     width: 70%;
     margin: auto;
 }
 
-.header, .about{
+.header, .about, .footer{
     background: #1a2e3b;
 }
 
@@ -119,12 +119,12 @@
 .text_stack ul li {
     padding: 2px;
     color: rgba(6, 6, 6, 0.647);
-    font-size: 1.8rem;
+    font-size: 1.5em;
     /* margin: 0 30px;  */
 }
 
 .text_about {
-    margin-top: 8rem;
+    /* margin-top: 8rem; */
 }
 
 .text_about p {
@@ -135,3 +135,6 @@
     font-family: "Cormorant Italic",  'Times New Roman', Times, serif;
 }
 
+.footer {
+    height: 50px;
+}
